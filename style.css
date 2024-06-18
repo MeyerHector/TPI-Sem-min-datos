@@ -1,0 +1,40 @@
+:root {
+  --contrast-color: #f4342f;
+  --main-color: #1fb258;
+}
+body {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+}
+img {
+  width: 120px;
+}
+header {
+  background-color: var(--contrast-color);
+  width: 100%;
+}
+li a {
+  background-color: var(--main-color) !important;
+  color: white !important;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+li {
+  border-radius: 5px;
+}
+
+video {
+  height: 500px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.438);
+}
+.btn-ver-mas {
+  background-color: var(--main-color);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  font-weight: bold;
+  text-decoration: none;
+  margin-bottom: 30px;
+}
